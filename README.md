@@ -1,1 +1,1 @@
-# Job posting dashboard
+# Jobi
