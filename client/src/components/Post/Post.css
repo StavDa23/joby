@@ -1,0 +1,42 @@
+.post {
+  width: 600px;
+  background: var(--color-background);
+  border-radius: 10px;
+  overflow: hidden;
+  transform: translateY(2px);
+  transition-property: transform, box-shadow;
+  transition: 0.25s cubic-bezier(0.215, 0.61, 0.355, 1);
+  padding: 30px;
+  cursor: pointer;
+}
+
+.post:hover {
+  transform: translateY(0);
+  box-shadow: 0 20px 80px rgba(0, 0, 0, 0.1), 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+.secondary-details {
+  display: flex;
+  align-items: center;
+}
+
+.company,
+.location {
+  color: var(--color-light-text);
+  padding: 5px 0;
+  margin-left: 10px;
+}
+
+.company {
+  margin-right: 30px;
+}
+
+.location-icon,
+.work-icon {
+  font-size: 18px;
+}
+
+.description {
+  padding: 20px 0;
+  font-weight: 100;
+}

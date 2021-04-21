@@ -1,7 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
 import App from "./components/App/App";
-import Post from "./components/Post/Post";
+import "./index.css";
+import "./styles/_base.css";
+import "./styles/_setting.css";
 
-ReactDOM.render(<Post />, document.getElementById("root"));
+ReactDOM.render(<App />, document.getElementById("root"));
