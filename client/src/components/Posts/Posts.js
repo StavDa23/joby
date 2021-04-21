@@ -14,6 +14,7 @@ function Posts(props) {
           }
           post={post}
           isOpen={post.id === openPostId}
+          key={post.id}
         />
       ))}
     </div>

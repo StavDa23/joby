@@ -1,12 +1,16 @@
 # schema
 
-title: string, required
-description: string, required
+title: string, REQUIRED
+description: string, REQUIRED
+company: string , REQUIRED
 salary: number
 tags: [string], length >= 1
-location: string
-skills: [string]
-experince: number
+location: string REQUIRED
+skills: {
+    required: [string] REQUIRED,
+    advantage: [string]
+}
+
 
 # API endpoint
 

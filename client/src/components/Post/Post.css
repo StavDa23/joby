@@ -1,5 +1,5 @@
 .post {
-  width: 600px;
+  margin: 20px 0;
   background: var(--color-background);
   border-radius: 10px;
   overflow: hidden;
@@ -28,7 +28,7 @@
 }
 
 .company {
-  margin-right: 30px;
+  margin-right: 20px;
 }
 
 .location-icon,
