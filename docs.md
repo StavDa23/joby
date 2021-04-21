@@ -1,13 +1,8 @@
-1. create a schema for job posting
-2. create API endpoints
-3. create full stack monorepo
-4. upload to github
-
 # schema
 
 title: string, required
 description: string, required
-salary: number, required
+salary: number
 tags: [string], length >= 1
 location: string
 skills: [string]
